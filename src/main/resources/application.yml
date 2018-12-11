@@ -1,0 +1,8 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        id: http://localhost:8080/movies
+        jwk:
+          jwk-set-uri: https://XXX.auth0.com/.well-known/jwks.json
+          issuer-uri: https://XXX.auth0.com/
